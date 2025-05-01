@@ -7,7 +7,6 @@ steps = [
     "scripts.analyze_functional_summary",
     "scripts.analyze_taxonomy",
     "scripts.plot_tsne",
-    "scripts.plot_cluster_distribution",
     "scripts.plot_cluster_heatmap",
     "scripts.plot_function_heatmap",
     "scripts.plot_function_by_group"
