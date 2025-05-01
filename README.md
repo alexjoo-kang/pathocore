@@ -54,7 +54,7 @@ Each cluster is annotated using synthetic functional or taxonomic labels (provid
 
 - 📁 **Scripts**: [analyze_functional_summary](scripts/analyze_functional_summary.py), [analyze_taxonomy](scripts/analyze_taxonomy.py)
 - 📊 **Figure**: ![output/functional_distribution_heatmap.png](output/functional_distribution_heatmap.png)
-- Please also refer to [taxonomy_by_cluster](taxonomy_by_cluster.tsv)
+- Please also refer to [taxonomy_by_cluster](output/taxonomy_by_cluster.tsv)
 
 **Note on Cluster Overlap**: According to [cluster_overlap_summary](output/cluster_overlap_summary.tsv), all clusters (IDs 0–3) contain sequences from all four groups (ASD, Cancer, Control_ASD, Control_Cancer). This means clusters are not group-specific, likely because:
 
