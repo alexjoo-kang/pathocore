@@ -44,10 +44,8 @@ AAC vectors are projected into 2D using t-SNE to visualize separability of clust
 ### 4. **Cluster Composition Analysis**
 Heatmaps and barplots summarize how sequences from different groups are distributed across clusters.
 
-- 📁 **Code**: [plot_cluster_distribution](scripts/plot_cluster_distribution.py), [plot_cluster_heatmap](scripts/plot_cluster_heatmap.py)
-- 📊 **Figures**:
-  - ![output/cluster_distribution_per_group.png](output/cluster_distribution_per_group.png)
-  - ![output/cluster_proportion_heatmap.png](output/cluster_proportion_heatmap.png)
+- 📁 **Code**: [plot_cluster_heatmap](scripts/plot_cluster_heatmap.py)
+- 📊 **Figures**: ![output/cluster_proportion_heatmap.png](output/cluster_proportion_heatmap.png)
 
 ### 5. **Functional & Taxonomic Summary**
 Each cluster is annotated using synthetic functional or taxonomic labels (provided in `data/`).
