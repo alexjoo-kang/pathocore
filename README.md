@@ -47,20 +47,20 @@ Heatmaps and barplots summarize how sequences from different groups are distribu
 - 📁 **Code**: [plot_cluster_heatmap](scripts/plot_cluster_heatmap.py)
 - 📊 **Figures**: ![output/cluster_proportion_heatmap.png](output/cluster_proportion_heatmap.png)
 
-### 5. **Functional & Taxonomic Summary**
-Each cluster is annotated using synthetic functional or taxonomic labels (provided in `data/`).
-
-- 📁 **Scripts**: [analyze_functional_summary](scripts/analyze_functional_summary.py), [analyze_taxonomy](scripts/analyze_taxonomy.py)
-- 📊 **Figure**: ![output/functional_distribution_heatmap.png](output/functional_distribution_heatmap.png)
-- Please also refer to [taxonomy_by_cluster](output/taxonomy_by_cluster.tsv)
-
 **Note on Cluster Overlap**: According to [cluster_overlap_summary](output/cluster_overlap_summary.tsv), all clusters (IDs 0–3) contain sequences from all four groups (ASD, Cancer, Control_ASD, Control_Cancer). This means clusters are not group-specific, likely because:
 
 1. All groups share similar amino acid composition on synthetic data.
 2. AAC fails to capture order-specific or structural motifs.
 3. The data are fully synthetic.
 
-⚠️ I honestly acknowledge that I do not fully understand why this occurs and need further study. 
+⚠️ I acknowledge that I do not fully understand why this occurs and need further study. 
+
+### 5. **Functional & Taxonomic Summary**
+Each cluster is annotated using synthetic functional or taxonomic labels (provided in `data/`).
+
+- 📁 **Scripts**: [analyze_functional_summary](scripts/analyze_functional_summary.py), [analyze_taxonomy](scripts/analyze_taxonomy.py)
+- 📊 **Figure**: ![output/functional_distribution_heatmap.png](output/functional_distribution_heatmap.png)
+- Please also refer to [taxonomy_by_cluster](output/taxonomy_by_cluster.tsv)
 
 ### 6. **AA Property Heatmap**
 Visualizes the relative content of hydrophobic, polar, charged, and special amino acids per cluster.
