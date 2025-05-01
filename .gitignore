@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Conda-related
+*.conda
+*.condarc
+
+# macOS system files
+.DS_Store
+
+# Output and results (ignore all but summary and plots)
+output/*
+!output/*.png
+!output/*.tsv
+!output/clusters_fasta/
+!output/clusters_fasta/*.fasta
+
+# Ignore test scripts
+scripts/test_*.py
+
+# Editor-specific settings
+.vscode/

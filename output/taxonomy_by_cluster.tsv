@@ -1,0 +1,19 @@
+cluster_id	taxonomic_label	count
+2	Homo sapiens	3
+2	Sus scrofa	1
+0	Mus musculus	1
+0	Oryza sativa	1
+0	Escherichia coli	1
+0	Macaca mulatta	1
+0	Bos taurus	1
+1	Rattus norvegicus	1
+1	Danio rerio	1
+1	Saccharomyces cerevisiae	1
+1	Pan troglodytes	1
+1	Mus musculus	1
+1	Arabidopsis thaliana	1
+1	Gallus gallus	1
+3	Canis lupus familiaris	1
+3	Drosophila melanogaster	1
+3	Danio rerio	1
+3	Rattus norvegicus	1
