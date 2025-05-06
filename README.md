@@ -90,7 +90,7 @@ You can download this project in two ways:
 3. Extract the ZIP
 4. `cd /path/to/pathocore-main`
 
-> ✅ No Git or command line required
+> ✅ No git command required
 
 ### 🧪 Option 2: Clone with Git
 ```bash
